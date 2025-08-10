@@ -7,4 +7,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  // GitHub Pages에 배포할 경우 리포지토리 이름으로 base 경로 설정
+  base: '/portfolio/', // ⚠️ 리포지토리 이름에 맞게 변경
 });
